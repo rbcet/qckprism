@@ -1,8 +1,8 @@
 use rusb::{Context, Device, DeviceHandle, Result, UsbContext};
 use std::time::Duration;
 
-const VID: u16 = 0x1038; //QCK Prism XL Vendor ID
-const PID: u16 = 0x150d; //QCK Prism XL Product ID
+const VID: u16 = 0x1038; //QCK Prism 3XL Vendor ID
+const PID: u16 = 0x1516; //QCK Prism 3XL Product ID
 
 struct Endpoint {
     config: u8,
